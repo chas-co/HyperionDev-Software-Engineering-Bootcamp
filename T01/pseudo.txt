@@ -1,0 +1,63 @@
+An algorithm that asks a user to enter a positive number repeatedly
+until the user enters a zero value, then determines and outputs the
+largest of the numbers that were input.
+********************************************************************
+Solution
+********************************************************************
+1.Start
+2.Initialise a variable called "biggestNumber" to zero
+3.Request the user to enter a positive number.
+4.store the number in a variable called "number"
+5.loop while "number" is greater than zero
+	if the number is greater than the value stored in "biggestNumber"
+		replace the value in "biggestNumber" with the value of "number"
+	go back to step one 
+6. when loop breaks 
+	print out "biggestNumber"
+7. End
+----------------------------------------------------------------------
+
+An algorithm that reads an arbitrary number of integers and then
+returns their arithmetic average.
+
+********************************************************************
+Solution
+********************************************************************
+1.Start
+2.Read the integers
+3.store them in a container
+4.determine how many integers are stored in the container and store in a variable count
+5.add up all the numberrs stored in the container and store in variable sum
+6.divide  sum by count and store in another variable average
+7.print out average
+8.End
+
+
+----------------------------------------------------------------------
+
+An algorithm that reads a grocery list and prints out the products
+(in alphabetical order) that are still left to buy.
+********************************************************************
+Solution
+********************************************************************
+1.Start
+2.Read the grocery list
+3.remove items bought from the list
+4.sort remaining items on list
+5.print out sorted list
+6.End
+
+
+----------------------------------------------------------------------
+
+An algorithm for the flowchart below:
+********************************************************************
+Solution
+********************************************************************
+1.Start
+2.Read the two input values X and Y
+3.add X to Y and store the result in S
+4.Divide S by 2 and store the result in A
+5.Multiply X and Y and store the result in P
+6.Write/output the values of S, A, P to the user
+7.End

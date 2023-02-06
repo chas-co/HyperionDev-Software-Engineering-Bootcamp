@@ -1,0 +1,22 @@
+An algorithm that asks the user to enter four numbers, sorts those
+numbers from smallest to largest and then prints the sorted
+numbers.
+********************************************************************
+Solution
+********************************************************************
+Start
+1.Ask the user to enter 4 numbers
+2.Store the numbers in an array sorted
+3.sort numbers in accending order
+4. print out sorted
+5.End
+
+
+Pleas find sort details below
+------------------------------
+1.select the first position of the array
+2.if value of the first position  is greater than the value of the next position 
+	swap the values of the two elements.
+3.Repeat step 4 comparing the value in the first position with other positions 
+  in the array.
+4.Repeat step 3 and 4 for the other positions in the array.
